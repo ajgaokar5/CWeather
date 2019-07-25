@@ -1,0 +1,20 @@
+/*-----------------------------------Main Settings-------------------------------*/
+*{margin:0; padding:0}
+body{font-family:Arial, Helvetica, sans-serif}
+:root{
+	--mainBackground:#fff;
+	--itemWidth:300px;
+
+}
+
+body{background: var(--mainBackground)}
+.wrapper{width:300px; margin:0 auto; padding:20px}
+.headings{padding-bottom:20px; text-align: center}
+.inputHolder{ width:var(--itemWidth)}
+.inputHolder input{height:28px; border:1px solid #ececec; width:278px; padding:5px 10px}
+.btn{width:var(--itemWidth); height:40px; border:none; background-color:#6A0DC4; font-size:16px; color:#fff; cursor: pointer;}
+.btn:hover{background-color:#8D18FF;}
+.stats{padding:20px}
+.stats p{font-size:18px; font-weight:bold; text-align: center; padding-bottom:10px}
+.statsbox{display:grid; grid-template-columns: 1fr 1fr}
+.statsbox div{font-size:14px; padding:10px}
